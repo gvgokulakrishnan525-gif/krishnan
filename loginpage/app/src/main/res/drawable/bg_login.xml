@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Sky -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#FF9800"
+                android:endColor="#03A9F4"
+                android:angle="90" />
+        </shape>
+    </item>
+    <!-- Sun -->
+    <item android:top="100dp" android:bottom="400dp" android:left="100dp" android:right="100dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFF176"/>
+        </shape>
+    </item>
+    <!-- Sea -->
+    <item android:top="500dp">
+        <shape>
+            <solid android:color="#01579B"/>
+        </shape>
+    </item>
+</layer-list>
